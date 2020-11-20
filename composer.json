@@ -6,5 +6,10 @@
             "email": "574633867@qq.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Jrpc\\": "src/"
+        }
+    }
 }
